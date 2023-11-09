@@ -1,0 +1,123 @@
+@font-face {
+    font-family: Lostar;
+    src: url("./fonts/Lostar.ttf") format('truetype');
+}
+
+header{
+    margin: 0;
+    font-family: 'Lostar', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lostar', sans-serif;
+    background-image: url(./images/Fond\ contact\ +\ à\ propos.png);
+    background-color: #FEF3E0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FACB1B;
+    border-bottom: 8px solid #896908;
+}
+
+.container-a {
+    color: #FCBD32;
+    text-decoration: none;
+    background-color: #896908;
+    border-radius: 50px;
+    padding: 5px 30px;
+    font-size: 28px;
+    margin: 40px 0px;
+    box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.75);
+}
+
+.container-mid {
+    color: #FCBD32;
+    text-decoration: none;
+    background-color: #896908;
+    border-radius: 50px;
+    padding: 5px 30px;
+    font-size: 40px;
+    margin: 30px 0px;
+    box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.75);
+}
+
+.container a:hover {
+    background-color: #896908c8;
+}
+
+.biographie-overall {
+    max-width: 800px;
+    margin: 20vh auto;
+    background-color: #FACB1B;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.462);
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.img-bio {
+    max-width: 100%;
+    height: auto;
+    width: 150px;
+    height: 170px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 10px;
+    border: 4px solid #896908;
+}
+
+.gros-titre{
+    color: #896908;
+}
+
+.presentation{
+    font-family: Arial, Helvetica, sans-serif, bold;
+    color: #6a5105;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 0px;
+    text-align: justify, center;
+}
+
+.footer-left {
+    display: flex;
+    background-color: #FACB1B;
+    border-top: 8px solid #896908;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.lien-lk{
+    max-width: 100px;
+    margin-left: 20px;
+}
+
+img {
+    width: 65%;
+    height: auto;
+}
+
+.btn{
+    color: #FCBD32;
+    justify-content: right;
+    text-decoration: none;
+    background-color: #896908;
+    border-radius: 50px;
+    padding: 5px 30px;
+    font-size: 15px;
+    margin: 20px 30px;
+    box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.75);
+}
+
+.btn:hover {
+    background-color: #896908c8;
+}

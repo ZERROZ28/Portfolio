@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Contact.css">
+    <title>Page de Contact</title>
+</head>
+<header>
+    <div class="container">
+        <a href="./Contact.html" class="container-a">Contact</a>
+        <a href="./Portfolio.html" class="container-mid">Créations</a>
+        <a href="./À propos.html" class="container-a">À propos</a>
+    </div>
+</header>
+
+<body>
+    <div class="form-container">
+        <form action="traitement.php" method="post">
+            <label class="nom" for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+    
+            <label class="email" for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label class="message" for="message">Message :</label>
+            <textarea id="message" name="message" rows="7" required></textarea>
+    
+            <input class="envoyer" type="submit" value="Envoyer">
+        </form>
+    </div>
+</body>
+
+<footer>
+    <div class="footer-left">
+        <a class="lien-lk" href="https://www.linkedin.com/in/kylian-bourdelas-977409247/">
+        <img src="./images/logo_orange_linkedin_icon_134385.png.webp" alt="linkedin">
+        </a>
+        <a class="btn" href="./Contact.html">Contact</a>
+        <a class="btn" href="./À propos.html">À propos</a>
+    </div>
+</footer>
+
+</html>

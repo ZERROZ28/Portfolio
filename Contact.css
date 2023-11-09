@@ -1,0 +1,142 @@
+@font-face {
+    font-family: Lostar;
+    src: url("./fonts/Lostar.ttf") format('truetype');
+}
+
+header{
+    margin: 0;
+    font-family: 'Lostar', sans-serif;
+}
+
+body{
+    margin: 0;
+    font-family: 'Lostar', sans-serif;
+    background-image: url(./images/Fond\ contact\ +\ à\ propos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 120px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #896908;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #896908;
+    color: #ffcf67;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.envoyer{
+    text-align: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+input[type="submit"]:hover {
+    background-color: #634c06;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FACB1B;
+    border-bottom: 8px solid #896908;
+}
+
+.container-a {
+    color: #FCBD32;
+    text-decoration: none;
+    background-color: #896908;
+    border-radius: 50px;
+    padding: 5px 30px;
+    font-size: 28px;
+    margin: 40px 0px;
+    box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.75);
+}
+
+.container-mid {
+    color: #FCBD32;
+    text-decoration: none;
+    background-color: #896908;
+    border-radius: 50px;
+    padding: 5px 30px;
+    font-size: 40px;
+    margin: 30px 0px;
+    box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.75);
+}
+
+.container a:hover {
+    background-color: #896908c8;
+}
+
+.footer-left {
+    display: flex;
+    background-color: #FACB1B;
+    border-top: 8px solid #896908;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.lien-lk{
+    max-width: 100px;
+    margin-left: 20px;
+}
+
+img {
+    width: 65%;
+    height: auto;
+}
+
+.btn{
+    color: #FCBD32;
+    justify-content: right;
+    text-decoration: none;
+    background-color: #896908;
+    border-radius: 50px;
+    padding: 5px 30px;
+    font-size: 15px;
+    margin: 20px 30px;
+    box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.75);
+}
+
+.btn:hover {
+    background-color: #896908c8;
+}
+
+.nom{
+    font-family:Arial bold, Helvetica, sans-serif;
+}
+
+.email{
+    font-family:Arial bold, Helvetica, sans-serif;
+}
+
+.message{
+    font-family:Arial bold, Helvetica, sans-serif;
+}
